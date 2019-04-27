@@ -16,7 +16,7 @@ open source project.
 
 # General steps to build 'protocol buffers' based applications
 The first step is defining .proto files - for TfNSW realtime data, I copied a .proto
-file(saved as tfnsw-gtfs-realtime.proto, which some minimum changes).
+file(saved as tfnsw-gtfs-realtime.proto, which has some minimum changes).
 
 
 Then compile the '.proto' file using a compiler to your choice of programming language -
