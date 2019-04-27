@@ -44,7 +44,7 @@ build a nested structure(which is easy to manipulate using Lisp's "list" operati
 I guess there can be three different approaches from static to dynamic.
 
 I bet a typical programming language users type everything manually, which is very tedious and error-prone.
-Using the dynamic feature of Lisp, I could ask to each 'protocol buffers record' about its field names
+Using the dynamic nature of Lisp, I could ask to each 'protocol buffers record' about its field names
 and values then build Lisp friendly structure, which will have a bit of runtime overhead but future proof.
 
 The approach I've taken is middle of the two (but closer to dynamic side). I listed field names
